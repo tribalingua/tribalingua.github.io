@@ -1,45 +1,43 @@
 enable: true
-title: Our Services
-subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+title: Our Clients 2018 - 2019
 content:
 
-  - icon: ion-coffee
-    name: Branding
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/involves.png
+    name: Involves
+     
+  - image: img/costumers/way2.png
+    name: Way2
+  
+  - image: img/costumers/paradigma.png
+    name: Paradigma
 
-  - icon: ion-compass
-    name: Web Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/acate.png
+    name: Acate
+  
+  - image: img/costumers/seventh.png
+    name: Seventh
+  
+  - image: img/costumers/connect.png
+    name: Connect Import
 
-  - icon: ion-image
-    name: App Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/engie.png
+    name: Engie
 
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/eletrobras.png
+    name: Eletrobras
 
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/bravi.png
+    name: Bravi
 
-  - icon: ion-leaf
-    name: Development
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/tribal.png
+    name: Tribal
 
-  - icon: ion-planet
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  # - image: img/costumers/qualcomm.png
+  #   name: Qualcomm
 
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+  - image: img/costumers/caixa.png
+    name: Caixa
+
+  - image: img/costumers/wag.png
+    name: EAG
+

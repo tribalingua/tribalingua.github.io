@@ -1,10 +1,10 @@
 enable: true
-title: Fun Facts About Us
-paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+title: What our students say about us
+# paragraph: >
+#   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
 
 numbers:
-  - icon: ion-ios-chatboxes-outline
+  - image: img/costumers/involves.png
     counter: 2000
     text: Cups of Coffee
   - icon: ion-ios-glasses-outline
@@ -19,22 +19,22 @@ numbers:
 
 people:
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+      Tribalingua's teaching method are amazing, in a few months I was confident enough for international interviews!
+    image: img/feedbacks/thiagotr.jpg
+    name: Thiago Trennepohl
+    role: SRE Engineer
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+      Each class gets better and better, I am now feel ready to work abroad.
+    image: img/feedbacks/clarissa.jpeg
+    name: Clarissa Milner
+    role: I.T Manager
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+      Tribalingua is great and i have learned a lot, the teacher is creative and every class is cool.
+    image: img/feedbacks/viniharrison.jpeg
+    name: Vinicius Harrison
+    role: Software Engineer
+  # - text: >
+  #     This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+  #   image: img/item-img1.jpg
+  #   name: Rose Ray
+  #   role: CEO-Themefisher
