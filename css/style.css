@@ -939,6 +939,13 @@ img#header-logo {
   /* padding-left: 40px; */
   width: 100%;
 }
+
+#feature h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: -3em;
+}
 }
 
 
@@ -957,6 +964,13 @@ img#header-logo {
 #intro .block img {
   /* padding-left: 40px; */
   width: 100%;
+}
+
+#feature h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: -3em;
 }
 }
 
