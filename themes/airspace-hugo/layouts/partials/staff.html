@@ -1,0 +1,27 @@
+{{ if .Site.Data.service.enable }}
+<!-- Service Start -->
+<section id="staff">
+  <div class="container">
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.staff.title }}</h2>
+      </div>
+    </div>
+    <!-- Content -->
+    <div class="row">
+      {{ range .Site.Data.staff.content }}
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <img id="test-img" style="max-width: 50%;" src={{.image}} />
+          <div class=staff-description>
+            <h3>{{ .name }}</h3>
+            <h4>{{ .role }}</h4>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
