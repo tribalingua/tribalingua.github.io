@@ -940,7 +940,7 @@ img#header-logo {
 @media (max-width: 400px) 
 {
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  
   font-weight: bold;
   font-size: 2.0em;
   line-height: 60px;
