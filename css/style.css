@@ -934,11 +934,24 @@ img#header-logo {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
+
+#intro .block img {
+  /* padding-left: 40px; */
+  width: 100%;
+}
+
+#feature h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: -3em;
+}
 }
 
 
 @media (max-width: 400px) 
 {
+  
 #slider .block h1 {
   
   font-weight: bold;
@@ -947,4 +960,18 @@ img#header-logo {
   letter-spacing: 10px;
   padding-bottom: 45px;
 }
+
+#intro .block img {
+  /* padding-left: 40px; */
+  width: 100%;
 }
+
+#feature h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: -3em;
+}
+}
+
+
