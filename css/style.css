@@ -185,8 +185,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  width: 100%;
+    width: 144%;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -920,7 +919,7 @@ img#client-logo {
 }
 
 img#header-logo {
-  max-width: 38%;
+  max-width: 5em;
 }
 
 @media (max-width: 600px) 
@@ -936,7 +935,7 @@ img#header-logo {
 }
 
 #intro .block img {
-  /* padding-left: 40px; */
+  padding-left: 0px;
   width: 100%;
 }
 
@@ -962,7 +961,7 @@ img#header-logo {
 }
 
 #intro .block img {
-  /* padding-left: 40px; */
+  padding-left: 0px;
   width: 100%;
 }
 
@@ -974,4 +973,31 @@ img#header-logo {
 }
 }
 
+.tribalinguas-logo {
 
+  padding-bottom: 3.2em;
+
+}
+
+
+#slider .block p {
+
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 802;
+  letter-spacing: 3px;
+  color: white;
+
+}
+
+
+section#staff {
+  padding: 7%;
+}
+
+section#service {
+  border: 2px solid #f1f1f1;
+  padding: 7%;
+  background: rgba(245, 244, 244, 0.42);
+}
