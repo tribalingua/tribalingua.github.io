@@ -1,0 +1,30 @@
+<!-- Content Start -->
+<section id="testimonial">
+  <div class="container">
+    <!-- Header -->
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>{{ .Site.Data.testimonial.title }}</h2>
+        <p>{{ .Site.Data.testimonial.paragraph }}</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {{ range .Site.Data.testimonial.people }}
+            <div>
+              <img src="../img/cotation.png" alt="IMG">
+              <p>"{{ .text }}"</p>
+              <div class="user">
+                <img id="feedback-profile-img" src="{{ $.Site.BaseURL }}{{ .image }}" alt="Pepole">
+                <p><span>{{ .name }}</span> {{ .role }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
