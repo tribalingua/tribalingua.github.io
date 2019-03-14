@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:tribalingua/tribalingua.github.io
-	branch = master
