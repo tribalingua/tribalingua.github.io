@@ -922,9 +922,28 @@ img#header-logo {
   max-width: 5em;
 }
 
+
+img#union-jack {
+  width: 4em;
+  /* margin-right: 6em; */
+}
+
 @media (max-width: 600px) 
 {
   
+  .col-md-3 {
+    width: 100%;
+  }
+  img#union-jack {
+    width: 2.5em;
+    margin-right: 0em;
+  }
+  
+  img#header-logo {
+  
+    width: 3.5em
+  
+  }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -934,9 +953,37 @@ img#header-logo {
   padding-bottom: 45px;
 }
 
+.service-item {
+  margin-bottom: 3em;
+}
+
 #intro .block img {
   padding-left: 0px;
   width: 100%;
+}
+
+#feature {
+  border: 2px solid #f1f1f1;
+  background: none;
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fbfafa;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
 }
 
 #feature h2 {
@@ -950,7 +997,34 @@ img#header-logo {
 
 @media (max-width: 400px) 
 {
+  img#union-jack {
+    width: 2.5em;
+    margin-right: 0em;
+  }
   
+  #feature {
+    border: 2px solid #f1f1f1;
+    background: none;
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fbfafa;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 100px 0;
+  }
 #slider .block h1 {
   
   font-weight: bold;
@@ -965,17 +1039,34 @@ img#header-logo {
   width: 100%;
 }
 
+
 #feature h2 {
   font-size: 1.6em;
   font-weight: 600;
   margin-bottom: 16px;
   margin-top: -3em;
 }
+
+.service-item {
+  margin-bottom: 3em;
 }
 
 .tribalinguas-logo {
 
-  padding-bottom: 3.2em;
+  padding-bottom: 3.5em;
+
+}
+
+.col-md-3 {
+  width: 100%;
+}
+}
+
+
+
+.tribalinguas-logo {
+
+  padding-bottom: 3.5em;
 
 }
 
@@ -1001,3 +1092,18 @@ section#service {
   padding: 7%;
   background: rgba(245, 244, 244, 0.42);
 }
+
+h4#staff-role {
+  max-width: 7.5em;
+  width: 103%;
+  text-align: center;
+}
+
+h3#staff-name {
+  max-width: 4.5em;
+  width: 100%;
+  text-align: center;
+}
+
+
+
