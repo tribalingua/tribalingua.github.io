@@ -930,6 +930,16 @@ img#union-jack {
 
 @media (max-width: 600px) 
 {
+
+  #slider {
+    background: url(../img/slider-bg.jpg);
+    background-size: cover;
+    background-position: 10% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+    background-position-y: 14%;
+    background-attachment: scroll;
+  }
   
   .col-md-3 {
     width: 100%;
@@ -1059,6 +1069,15 @@ img#union-jack {
 
 .col-md-3 {
   width: 100%;
+}
+#slider {
+  background: url(../img/slider-bg.jpg);
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+  background-position-y: 14%;
+  background-attachment: scroll;
 }
 }
 
