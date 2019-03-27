@@ -1138,5 +1138,8 @@ h3#staff-name {
   text-align: center;
 }
 
-
-
+div#contact-box-2 {
+  float: none;
+  margin: auto;
+  width: 18em;
+}
