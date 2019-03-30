@@ -896,8 +896,9 @@ a.navbar-brand {
   max-height: 180px;
 }
 
-.staff-description{
-  margin-left: 25%
+.staff-description {
+  margin: auto;
+  width: 10em;
 }
 
 .section-title h2 {
