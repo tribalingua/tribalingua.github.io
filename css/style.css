@@ -893,6 +893,7 @@ a.navbar-brand {
 #test-img {
   margin-left: 25%;
   min-height: 131.25px;
+  max-height: 180px;
 }
 
 .staff-description{
