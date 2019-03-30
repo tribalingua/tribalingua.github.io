@@ -200,6 +200,12 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   padding: 90px 0;
 }
+
+#service {
+  border: 2px solid #f1f1f1;
+  padding: 7%;
+  background: rgba(245, 244, 244, 0.42);
+}
 #service .service-item {
   padding-bottom: 30px;
 }
@@ -931,6 +937,13 @@ img#union-jack {
 @media (max-width: 600px) 
 {
 
+  .staff-description {
+    width: 10em;
+    margin: auto;
+    text-align: center;
+    margin-left: 0%;
+}
+
   #contact-box {
     padding-left: 16%;
     padding-top: 35px;
@@ -1014,6 +1027,13 @@ img#union-jack {
 
 @media (max-width: 400px) 
 {
+
+  .staff-description {
+    width: 10em;
+    margin: auto;
+    text-align: center;
+    margin-left: 0%;
+}
 
   #contact-box {
     padding-left: 16%;
@@ -1120,12 +1140,6 @@ section#staff {
   padding: 7%;
 }
 
-section#service {
-  border: 2px solid #f1f1f1;
-  padding: 7%;
-  background: rgba(245, 244, 244, 0.42);
-}
-
 h4#staff-role {
   max-width: 7.5em;
   width: 103%;
@@ -1142,4 +1156,11 @@ div#contact-box-2 {
   float: none;
   margin: auto;
   width: 18em;
+}
+
+
+section#fuck {
+  border: 2px solid #f1f1f1;
+  padding: 7%;
+  background: rgba(245, 244, 244, 0.42);
 }
