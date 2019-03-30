@@ -941,7 +941,6 @@ img#union-jack {
     width: 10em;
     margin: auto;
     text-align: center;
-    margin-left: 0%;
 }
 
   #contact-box {
@@ -1032,8 +1031,8 @@ img#union-jack {
     width: 10em;
     margin: auto;
     text-align: center;
-    margin-left: 0%;
 }
+
 
   #contact-box {
     padding-left: 16%;
@@ -1159,7 +1158,7 @@ div#contact-box-2 {
 }
 
 
-section#fuck {
+section#service {
   border: 2px solid #f1f1f1;
   padding: 7%;
   background: rgba(245, 244, 244, 0.42);
