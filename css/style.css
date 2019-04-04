@@ -574,6 +574,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .mix {
   display: none;
 }
+
+@media(max-width: 400px){
+#portfolio-work .block .portfolio-contant ul li {
+    width: 100%;
+}
+}
 /*--
 	wrapper-work Start
 --*/
@@ -939,6 +945,14 @@ img#union-jack {
 @media (max-width: 600px) 
 {
 
+  #portfolio-work .block .portfolio-contant ul li {
+    float: left;
+    width: 99%;
+    overflow: hidden;
+    margin: 6px;
+    position: relative;
+}
+
   .staff-description {
     width: 10em;
     margin: auto;
@@ -1025,9 +1039,27 @@ img#union-jack {
 }
 }
 
+#portfolio-work .block .portfolio-contant ul li {
+  float: left;
+  width: 32.22%;
+  overflow: hidden;
+  margin: 6px;
+  position: relative;
+}
+
+
+
 
 @media (max-width: 400px) 
 {
+
+  #portfolio-work .block .portfolio-contant ul li {
+    float: left;
+    width: 99%;
+    overflow: hidden;
+    margin: 6px;
+    position: relative;
+}
 
   .staff-description {
     width: 10em;
@@ -1165,3 +1197,11 @@ section#service {
   padding: 7%;
   background: rgba(245, 244, 244, 0.42);
 }
+
+#portfolio-work .block .portfolio-menu {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+
