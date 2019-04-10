@@ -1,23 +1,12 @@
-{{ partial "global-header.html" . }}
-
 <!-- Portfolio Start -->
 <section id="portfolio-work">
     <div class="container">
         <div class="row">
+            <div class="section-title">
+                <h2 id="clients-title">{{ .Site.Data.work.title }}</h2>
+              </div>
           <div class="col-md-12">
             <div class="block">
-              <div class="portfolio-menu">
-                <ul>
-                  {{ $categories := slice }}
-                  {{ range .Site.Data.work.portfolio }}
-                    {{ $categories = $categories | append .category }}
-                  {{ end }}
-                    <li class="filter" data-filter="all">Everything</li>
-                  {{ range ( $categories | uniq ) }}
-                    <li class="filter" data-filter=".{{ . }}">{{ . }}</li>
-                  {{ end }}
-                </ul>
-              </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
                   {{ range .Site.Data.work.portfolio }}
@@ -40,23 +29,4 @@
           </div>
         </div>
     </div>
-</section>
-
-<!-- Clients Logo Section Start -->
-<section id="clients-logo-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div id="clients-logo" class="owl-carousel">
-            {{ range .Site.Data.work.clients }}
-            <div class="clients-logo-img">
-              <a href="{{ .url }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>

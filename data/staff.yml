@@ -1,19 +1,22 @@
 enable: true
-title: Ou Staff
+title: Our Staff
 content:
+
+  - image: img/staff/argentinian.jpeg
+    name: Jon
+
+  - image: img/staff/intern.jpeg
+    name: Erik
+
+  - image: img/staff/gary.jpeg
+    name: Gary
 
   - image: img/staff/owner.jpeg
     name: Cynthia
-    role: Finances Manager
-     
-  - image: img/staff/argentinian.jpeg
-    name: Jon
-    role: Education
-  
-  - image: img/staff/intern.jpeg
-    name: Eric
-    role: Education
 
   - image: img/staff/hungry.jpeg
     name: Yuri
-    role: Administration
+ 
+  - image: img/staff/ant.jpeg
+    name: Ant
+  

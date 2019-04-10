@@ -185,8 +185,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  width: 100%;
+  width: 59em;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -200,6 +199,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #service {
   text-align: center;
   padding: 90px 0;
+}
+
+#service {
+  border: 2px solid #f1f1f1;
+  padding: 7%;
+  background: rgba(245, 244, 244, 0.42);
 }
 #service .service-item {
   padding-bottom: 30px;
@@ -569,6 +574,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .mix {
   display: none;
 }
+
+@media(max-width: 400px){
+#portfolio-work .block .portfolio-contant ul li {
+    width: 100%;
+}
+}
 /*--
 	wrapper-work Start
 --*/
@@ -888,10 +899,12 @@ a.navbar-brand {
 #test-img {
   margin-left: 25%;
   min-height: 131.25px;
+  max-height: 180px;
 }
 
-.staff-description{
-  margin-left: 25%
+.staff-description {
+  margin: auto;
+  width: 10em;
 }
 
 .section-title h2 {
@@ -920,12 +933,69 @@ img#client-logo {
 }
 
 img#header-logo {
-  max-width: 38%;
+  max-width: 5em;
+}
+
+
+img#union-jack {
+  width: 4em;
+  /* margin-right: 6em; */
 }
 
 @media (max-width: 600px) 
 {
+
+  .section-title h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+  #portfolio-work .block .portfolio-contant ul li {
+    float: left;
+    width: 99%;
+    overflow: hidden;
+    margin: 6px;
+    position: relative;
+}
+
+  .staff-description {
+    width: 10em;
+    margin: auto;
+    text-align: center;
+}
+
+  #contact-box {
+    padding-left: 16%;
+    padding-top: 35px;
+    padding-bottom: 58px;
+    padding-right: 10%;
+}
+
+  #slider {
+    background: url(../img/slider-bg.jpg);
+    background-size: cover;
+    background-position: 10% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+    background-position-y: 14%;
+    background-attachment: scroll;
+  }
   
+  .col-md-3 {
+    width: 100%;
+  }
+  img#union-jack {
+    width: 2.5em;
+    margin-right: 0em;
+  }
+  
+  img#header-logo {
+  
+    width: 3.5em
+  
+  }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -935,9 +1005,37 @@ img#header-logo {
   padding-bottom: 45px;
 }
 
+.service-item {
+  margin-bottom: 3em;
+}
+
 #intro .block img {
-  /* padding-left: 40px; */
+  padding-left: 0px;
   width: 100%;
+}
+
+#feature {
+  border: 2px solid #f1f1f1;
+  background: none;
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fbfafa;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
 }
 
 #feature h2 {
@@ -948,10 +1046,76 @@ img#header-logo {
 }
 }
 
+#portfolio-work .block .portfolio-contant ul li {
+  float: left;
+  width: 32.22%;
+  overflow: hidden;
+  margin: 6px;
+  position: relative;
+}
+
+
+
 
 @media (max-width: 400px) 
 {
+
+  #portfolio-work .block .portfolio-contant ul li {
+    float: left;
+    width: 99%;
+    overflow: hidden;
+    margin: 6px;
+    position: relative;
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+  .staff-description {
+    width: 9em;
+    margin: auto;
+    text-align: center;
+}
+
+
+  #contact-box {
+    padding-left: 16%;
+    padding-top: 35px;
+    padding-bottom: 58px;
+    padding-right: 10%;
+}
+  img#union-jack {
+    width: 2.5em;
+    margin-right: 0em;
+  }
   
+  #feature {
+    border: 2px solid #f1f1f1;
+    background: none;
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fbfafa;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 100px 0;
+  }
 #slider .block h1 {
   
   font-weight: bold;
@@ -962,9 +1126,10 @@ img#header-logo {
 }
 
 #intro .block img {
-  /* padding-left: 40px; */
+  padding-left: 0px;
   width: 100%;
 }
+
 
 #feature h2 {
   font-size: 1.6em;
@@ -972,11 +1137,36 @@ img#header-logo {
   margin-bottom: 16px;
   margin-top: -3em;
 }
+
+.service-item {
+  margin-bottom: 3em;
 }
 
 .tribalinguas-logo {
 
-  padding-bottom: 3.2em;
+  padding-bottom: 3.5em;
+
+}
+
+.col-md-3 {
+  width: 100%;
+}
+#slider {
+  background: url(../img/slider-bg.jpg);
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+  background-position-y: 14%;
+  background-attachment: scroll;
+}
+}
+
+
+
+.tribalinguas-logo {
+
+  padding-bottom: 3.5em;
 
 }
 
@@ -991,4 +1181,41 @@ img#header-logo {
   color: white;
 
 }
+
+
+section#staff {
+  padding: 7%;
+}
+
+h4#staff-role {
+  max-width: 7.5em;
+  width: 103%;
+  text-align: center;
+}
+
+h3#staff-name {
+  max-width: 4.5em;
+  width: 100%;
+  text-align: center;
+}
+
+div#contact-box-2 {
+  float: none;
+  margin: auto;
+  width: 18em;
+}
+
+
+section#service {
+  border: 2px solid #f1f1f1;
+  padding: 7%;
+  background: rgba(245, 244, 244, 0.42);
+}
+
+#portfolio-work .block .portfolio-menu {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
 

@@ -11,12 +11,12 @@
     <!-- Content -->
     <div class="row">
       {{ range .Site.Data.staff.content }}
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="service-item">
           <img id="test-img" style="max-width: 50%;" src={{.image}} />
           <div class=staff-description>
-            <h3>{{ .name }}</h3>
-            <h4>{{ .role }}</h4>
+            <h3 id="staff-name">{{ .name }}</h3>
+            <h4 id="staff-role">{{ .role }}</h4>
           </div>
         </div>
       </div>

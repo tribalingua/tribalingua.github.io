@@ -507,13 +507,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-#portfolio-work .block .portfolio-contant ul li {
-  float: left;
-  width: 32.22%;
-  overflow: hidden;
-  margin: 6px;
-  position: relative;
-}
+
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
@@ -1165,3 +1159,24 @@ section#service {
   padding: 7%;
   background: rgba(245, 244, 244, 0.42);
 }
+
+
+
+@media only screen and (max-width: 767px){
+  #portfolio-work .block .portfolio-contant ul li {
+      width: 100%;
+  }
+  }
+  
+  @media only screen and (max-width: 767px){
+  #portfolio-work .block .portfolio-contant ul li {
+      width: 100%;
+  }
+  }
+  
+  #portfolio-work .block .portfolio-menu {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  

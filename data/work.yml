@@ -1,42 +1,6 @@
 enable: true
-title: Our Clients
-content:
-  - image: img/costumers/involves.png
-    name: Involves
-     
-  - image: img/costumers/way2.png
-    name: Way2
-  
-  - image: img/costumers/paradigma.png
-    name: Paradigma
-
-  - image: img/costumers/acate.png
-    name: Acate
-  
-  - image: img/costumers/seventh.png
-    name: Seventh
-  
-  - image: img/costumers/connect.png
-    name: Connect Import
-
-  - image: img/costumers/engie.png
-    name: Engie
-
-  - image: img/costumers/eletrobras.png
-    name: Eletrobras
-
-  - image: img/costumers/bravi.png
-    name: Bravi
-
-  - image: img/costumers/tribal.png
-    name: Tribal
-
-  # - image: img/costumers/qualcomm.png
-  #   name: Qualcomm
-
-  - image: img/costumers/caixa.png
-    name: Caixa
-
-  - image: img/costumers/wag.png
-    name: EAG
-
+title: Important moments
+portifolio:
+  - name: test
+    image: work1.jpg
+    category: involves

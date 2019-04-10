@@ -14,11 +14,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                <img id="header-logo" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
-              </a>
+              <div class="row">
+                <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                  <div class="col-md-24">
+                    <img id="union-jack" src="{{ .Site.BaseURL }}img/unionjack.png" alt="{{ .Site.Title }} Logo">
+                    <img id="header-logo" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
+                  </div>
+                </a>
+              </div>
             </div>
-            
+
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

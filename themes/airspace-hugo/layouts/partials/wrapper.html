@@ -8,7 +8,7 @@
             <h2>{{ .Site.Params.wrapper.title }}</h2>
             <p>{{ .Site.Params.wrapper.italic }}</p>
           </div>
-          <p>{{ .Site.Params.wrapper.paragraph }}</p>
+           <p>{{ replace .Site.Data.wrapper.content "\n" "<br/>" | safeHTML }}</p>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">

@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="section-title">
-        <h2 id="clients-title">{{ .Site.Data.work.title }}</h2>
+        <h2 id="clients-title">{{ .Site.Data.clients.title }}</h2>
       </div>
       <div class="col-md-12">
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
-            {{ range .Site.Data.work.content }}
+            {{ range .Site.Data.clients.content }}
             <div class="clients-logo-img">
               <a href="{{ .url }}"><img id=client-logo src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
             </div>

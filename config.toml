@@ -2,7 +2,7 @@ title = "Tribalingua"
 baseURL = "https://tribalingua.github.io/"
 languageCode = "en-us"
 theme = "airspace-hugo"
-
+id="bla"
 [menu]
 
 #  [[menu.header]]
@@ -45,7 +45,7 @@ theme = "airspace-hugo"
     enable = true
     title = "About Us"
     italic = ""
-    paragraph = "Tribalingua provides English language classes in companies in Florianópolis.We work with most of the largest and best businesses on the island and mainland.All of our teachers are qualified and have considerable classroom experience.Our native speaker team uses gamification practices and interactive activities.Classes take place inside our client's premises and this means our students are able to study in their workplace.Groups are limited to 6 students maximum to increase speaking time and groups are levelled accordingly.We focus on a communicative approach with speaking and listening activities.Students are encouraged to interact and use the target language naturally.Preparation for international exams is also provided."   
+    paragraph = "Tribalingua provides English language classes in companies in Florianópolis.We work with most of the largest and best businesses on the island and mainland.All of our teachers are qualified and have considerable classroom experience.Our native speaker team uses gamification practices and interactive activities.Classes take place inside our client's premises and this means our students are able to study in their workplace.Groups are limited to 6 students maximum to increase speaking time and groups are levelled accordingly.We focus on a communicative approach with speaking and listening activities.Students are encouraged to interact and use the target language naturally.Preparation for international exams is also provided."
     image = "../img/wrapper-img.png"
     
 
@@ -79,9 +79,7 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      email = "Email: tribalingua@gmail.com"
+      phone = "Phone: +55 48 9156 6678"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
