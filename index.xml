@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tribalingua</title>
-    <link>https://tribalingua.github.io/</link>
+    <link>https://tribalingua.co.uk/</link>
     <description>Recent content on Tribalingua</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://tribalingua.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tribalingua.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contact</title>
-      <link>https://tribalingua.github.io/contact/</link>
+      <link>https://tribalingua.co.uk/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tribalingua.github.io/contact/</guid>
+      <guid>https://tribalingua.co.uk/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service</title>
-      <link>https://tribalingua.github.io/service/</link>
+      <link>https://tribalingua.co.uk/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tribalingua.github.io/service/</guid>
+      <guid>https://tribalingua.co.uk/service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>https://tribalingua.github.io/work/</link>
+      <link>https://tribalingua.co.uk/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tribalingua.github.io/work/</guid>
+      <guid>https://tribalingua.co.uk/work/</guid>
       <description></description>
     </item>
     
