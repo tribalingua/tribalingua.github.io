@@ -74,19 +74,12 @@ img {
 
 
 .navbar.nav__color__change {
-    background: rgba(255, 255, 255, 0) !important;
-    padding: 20px 0;
+    /* background: rgba(255, 255, 255, 0) !important; */
+    padding: 40px 0;
     box-shadow: 0 10px 20px 0 rgb(50 65 141 / 10%);
 }
 
 .navbar {
-    position: absolute;
-    left: 0;
-    width: 100vw;
-    z-index: 99999;
-    padding: 20px 0;
-    background: 0 0;
-    transition: all .3s ease;
     background-color: #fff98500 !important;
 }
 
@@ -147,8 +140,10 @@ h3#we-understand-that-all-students-are-different {
  
 
 @media (max-width: 991px){
+.navbar {
+    background-color: white !important;
+}
 .navbar .navbar-brand img {
     width: 57%;
 }
 }
-
