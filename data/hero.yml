@@ -1,0 +1,10 @@
+---
+enable: true
+# topTitle: Hello, I am Natasha
+content: >
+  # English language in-company classes
+buttonName: Contact me
+buttonURL: contact
+image: images/hero/2960351.jpg
+videoThumb: images/hero/popup-thumb.png
+# videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ

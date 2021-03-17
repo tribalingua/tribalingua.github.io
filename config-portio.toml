@@ -1,9 +1,8 @@
-baseURL = "http://example.org/"
+title = "Tribalingua"
+baseURL = "https://tribalingua.co.uk/"
 languageCode = "en-us"
-paginate = 6
-theme = "portio"
-title = "Portio"
-# Main Menu
+theme = "portio-hugo"
+
 [[menu.main]]
 name = "Home"
 url = "#home"

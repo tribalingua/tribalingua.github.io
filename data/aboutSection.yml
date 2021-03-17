@@ -1,0 +1,14 @@
+---
+enable: true
+title: >
+  ## We believe in great ideas
+content: >
+  ### We understand that all students are different.
+
+  Our classes are designed based on many years of experienced teachers.
+  We adapt the classes according to learner needs, speaking and listening 
+  activities are used in the classroom to encourage production and communication.
+button1Name: Contact
+button1Target: contact
+button2Target: contact
+image: images/about/about-img.jpg

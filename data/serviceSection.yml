@@ -1,0 +1,32 @@
+---
+enable: true
+title: >
+  ## Our teaching process
+
+  Enjoy team diversity and increase their networks among others people in
+  various fields by provided.
+service:
+  - content: >
+      #### Writing 
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/ui-ux.svg
+  - content: >
+      #### Interactive material 
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/web.svg
+  - content: >
+      #### Realistic topics 
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/creative.svg
+  - content: >
+      #### Focus on speaking
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat.
+    image: images/service/branding.svg
