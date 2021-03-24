@@ -3,3 +3,24 @@ enable: true
 topTitle: These are some of the companies that trust in Tribalingua
 title: >
   ## Partners
+partners:
+  - name: Acate
+    image: acate.png
+  - name: Bravi
+    image: bravi.png
+  - name: caixa
+    image: caixa.png
+  - name: Connect
+    image: connect.png
+  - name: Connect
+    image: connect.png
+  - name: Involves
+    image: involves.png
+  - name: Qualcomm
+    image: qualcomm.png
+  - name: Seventh
+    image: seventh.png
+  - name: Tribal
+    image: tribal.png
+  - name: Way2
+    image: way2.png

@@ -26,12 +26,6 @@ bla {
     transform: scale(1.03);
 }
 
-img {
-    width: 6em;
-    vertical-align: middle;
-    border-style: none;
-}
-
 .btn-outline-primary {
     color: #fff;
     border-color: #00a859;  
@@ -74,13 +68,18 @@ img {
 
 
 .navbar.nav__color__change {
-    /* background: rgba(255, 255, 255, 0) !important; */
-    padding: 40px 0;
+    padding: 10px 0;
     box-shadow: 0 10px 20px 0 rgb(50 65 141 / 10%);
+    background-color: #fff985 !important;
 }
 
 .navbar {
+    padding: 10px 0;
     background-color: #fff98500 !important;
+}
+
+.navbar img {
+    width: 4.5em;
 }
 
 .about_content-inner {
@@ -135,15 +134,48 @@ h3#we-understand-that-all-students-are-different {
 }
 
 
+img#testimonial-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 3em;
+    max-height: 3em;
+}
+
+.testimonial__background_shape svg path {
+    fill: #fff985;
+}
 
 /* Mobile section */
  
 
 @media (max-width: 991px){
 .navbar {
-    background-color: white !important;
+    background-color: #fff985 !important;
+    padding: 15px 20px;
+    margin: 10px 10px 0;
+    border-radius: 5px;
 }
 .navbar .navbar-brand img {
     width: 57%;
+}
+
+.navbar .navbar-brand img {
+    width: 2.5em;
+}
+
+.navbar.navbar.nav__color__change {
+    background-color: #fff985;
+    padding: 15px 20px !important;
+    margin: 10px 10px 0;
+    border-radius: 5px;
+}
+
+img#testimonial-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 5em;
 }
 }
