@@ -354,7 +354,7 @@ img#testimonial-img {
 }
 
 .service__slider_item.slick-slide {
-    min-height: 414px;
+    min-height: 33em;
 }
 
 .resume h2 {
