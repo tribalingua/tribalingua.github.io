@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://preview.tribalingua.co.uk/en/categories/</loc>
+    <loc>https://tribalingua.co.uk/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/categories/"
+                href="https://tribalingua.co.uk/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://preview.tribalingua.co.uk/categories/"
+                href="https://tribalingua.co.uk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/categories/"
+                href="https://tribalingua.co.uk/en/categories/"
                 />
   </url><url>
-    <loc>https://preview.tribalingua.co.uk/en/tags/</loc>
+    <loc>https://tribalingua.co.uk/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/tags/"
+                href="https://tribalingua.co.uk/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://preview.tribalingua.co.uk/tags/"
+                href="https://tribalingua.co.uk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/tags/"
+                href="https://tribalingua.co.uk/en/tags/"
                 />
   </url><url>
-    <loc>https://preview.tribalingua.co.uk/en/</loc>
+    <loc>https://tribalingua.co.uk/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/"
+                href="https://tribalingua.co.uk/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://preview.tribalingua.co.uk/"
+                href="https://tribalingua.co.uk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/"
+                href="https://tribalingua.co.uk/en/"
                 />
   </url>
 </urlset>
