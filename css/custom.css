@@ -15,6 +15,14 @@ body {
     margin-left: 0px;
 }
 
+.fa.fa-phone {
+    color: #1abd48;
+}
+
+.fa.fa-envelope {
+    color: #1abd48;
+}
+
 .btn-primary:hover{
     color: #fff;
     background-color: #1abd48;
@@ -221,20 +229,6 @@ a.nav-link.text-dark.text-sm-center.p-2.scroll {
     border-radius: 20px;
     padding: 60px 50px;
     margin: 30px 25px 60px;
-    /* width: 38em; */
-}
-
-.testimonial__slider_item {
-    background: #fff;
-    border-radius: 20px;
-    padding: 60px 50px;
-    margin: 30px 25px 60px;
-    width: 38em;
-    min-height: 38em;
-}
-
-.footer__footer_copy p {
-    color: black;
 }
 
 img#service-icon {
@@ -251,15 +245,6 @@ img#testimonial-img {
 
 .slick-track h4 {
     color: #3295de;
-}
-
-.slick-slide img {
-    display: block;
-    margin: auto;
-}
-
-.testimonial__slider_item-content {
-    margin-top: 20%;
 }
 
 .resume {
@@ -281,12 +266,42 @@ img#testimonial-img {
 );
 }
 
+.testimonial__slider_item-author {
+    position: absolute;
+    bottom: 20%;
+}
+
 .testimonial__background_shape svg path {
     fill: #3295de;
 }
 
+.testimonial__slider_item {
+    min-height: 36em;
+}
+
+.testimonial__slider_item img {
+    margin: auto;
+    border-radius: 50%;
+    width: 50%
+}
+
+.testimonial__slider_item-content {
+    font-style: italic;
+    padding-top: 3em;
+}
+
 .partners__background_shape svg path {
     fill: #fff985;
+}
+
+.about_content-thumb-image p {
+    margin: auto;
+    color: #1abd48;
+    font-style: inherit;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    text-align: center;
+    /* padding-left: 25%; */
 }
 
 
@@ -349,19 +364,14 @@ img#testimonial-img {
 }
 
 @media (max-width: 991px){
-    .navbar {
-        background-color: #fdf014 !important;
-        padding: 15px 20px;
-        margin: 10px 10px 0;
-        border-radius: 5px;
-        box-shadow: 0 10px 20px 0 rgb(50 65 141 / 10%);
-    }
+.navbar {
+    background-color: #fff985 !important;
+    padding: 15px 20px;
+    margin: 10px 10px 0;
+    border-radius: 5px;
+}
 .navbar .navbar-brand img {
     width: 57%;
-}
-
-.testimonial__slider_item img {
-    width: 100%;
 }
 
 .navbar .navbar-brand img {

@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://preview.tribalingua.co.uk/en/categories/</loc>
+    <loc>https://preview.tribalingua.co.uk/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/categories/"
+                hreflang="en"
+                href="https://preview.tribalingua.co.uk/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -15,15 +15,15 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/categories/"
+                hreflang="es"
+                href="https://preview.tribalingua.co.uk/es/categories/"
                 />
   </url><url>
-    <loc>https://preview.tribalingua.co.uk/en/tags/</loc>
+    <loc>https://preview.tribalingua.co.uk/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/tags/"
+                hreflang="en"
+                href="https://preview.tribalingua.co.uk/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -32,15 +32,15 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/tags/"
+                hreflang="es"
+                href="https://preview.tribalingua.co.uk/es/tags/"
                 />
   </url><url>
-    <loc>https://preview.tribalingua.co.uk/en/</loc>
+    <loc>https://preview.tribalingua.co.uk/es/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://preview.tribalingua.co.uk/es/"
+                hreflang="en"
+                href="https://preview.tribalingua.co.uk/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -49,8 +49,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://preview.tribalingua.co.uk/en/"
+                hreflang="es"
+                href="https://preview.tribalingua.co.uk/es/"
                 />
   </url>
 </urlset>
