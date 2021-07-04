@@ -68,27 +68,27 @@
         
         <li class="nav-item">
           <a href="https://tribalingua.co.uk/#home"
-            class="nav-link text-dark text-sm-center p-2 scroll">Home</a>
+            class="nav-link  text-sm-center p-2 scroll">Home</a>
         </li>
         
         <li class="nav-item">
           <a href="https://tribalingua.co.uk/#about"
-            class="nav-link text-dark text-sm-center p-2 scroll">About</a>
+            class="nav-link  text-sm-center p-2 scroll">About</a>
         </li>
         
         <li class="nav-item">
           <a href="https://tribalingua.co.uk/#service"
-            class="nav-link text-dark text-sm-center p-2 scroll">Method</a>
+            class="nav-link  text-sm-center p-2 scroll">Method</a>
         </li>
         
         <li class="nav-item">
           <a href="https://tribalingua.co.uk/#testimonials"
-            class="nav-link text-dark text-sm-center p-2 scroll">Students</a>
+            class="nav-link  text-sm-center p-2 scroll">Students</a>
         </li>
         
         <li class="nav-item">
           <a href="https://tribalingua.co.uk/#contact"
-            class="nav-link text-dark text-sm-center p-2 scroll">Contact Us</a>
+            class="nav-link  text-sm-center p-2 scroll">Contact Us</a>
         </li>
         
       </ul>
@@ -477,6 +477,14 @@
 
 
   </div>
+  <div class="cookie-container">
+    <p>
+        By using this site, you agree to our use of cookies. We use cookies on this website in order to improve the usability on our site. To find out more, read our  <a style="font-weight: bold" href="https://tribalingua.co.uk/en//blog/privacy-policy">privacy policy</a>.
+    </p>
+    <button class="cookie-btn">
+        Okay
+    </button>
+</div>
   <section class="footer" id="contact">
 	
 	<div class="container">
@@ -504,6 +512,7 @@
 						
 						<li class="mb-2"><a class="text-light" href="https://themes.gohugo.io/theme/portio-hugo/">Webiste based on Portio</a></li>
 						
+						<li class="mb-2"><a class="text-light" href="https://tribalingua.co.uk/en//blog/privacy-policy">privacy policy</a></li>
 					</ul>
 				</div>
 			</div>
@@ -545,7 +554,7 @@
 		</div>
 	</div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+
 <script src="https://tribalingua.co.uk/plugins/jQuery/jquery.min.js"></script>
 <script src="https://tribalingua.co.uk/plugins/bootstrap/bootstrap.min.js"></script>
 <script src="https://tribalingua.co.uk/plugins/slick/slick.min.js"></script>
@@ -553,7 +562,7 @@
 <script src="https://tribalingua.co.uk/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
 <script src="https://tribalingua.co.uk/plugins/tweenmax/TweenMax.min.js"></script>
 <script src="https://tribalingua.co.uk/plugins/imagesloaded/imagesloaded.min.js"></script>
-<script src="https://tribalingua.co.uk/plugins/masonry/masonry.min.js"></script>           
+<script src="https://tribalingua.co.uk/plugins/masonry/masonry.min.js"></script>
 
 
 <script src="https://tribalingua.co.uk/js/form-handler.min.js"></script>
@@ -561,11 +570,34 @@
 <script src="https://tribalingua.co.uk/js/script.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
 <script type="text/javascript">
 	var feed = new Instafeed({
-	  accessToken: 'IGQVJWQXBuRnVRdlpIbkQzcFNveTl5S0JndnRIVWp6bVloWEU2M1VSSUFvczZA2VndnVzIycTNvc25tSFRZAcFFIVUxQTExCc2oxaU9mMnN0SDZAOVVI0UE9tbDh6ZADJhWkF3NnRzN2dHcjRZAQnRfRkhlTAZDZD',
-	  limit: 12
+		accessToken: 'IGQVJWQXBuRnVRdlpIbkQzcFNveTl5S0JndnRIVWp6bVloWEU2M1VSSUFvczZA2VndnVzIycTNvc25tSFRZAcFFIVUxQTExCc2oxaU9mMnN0SDZAOVVI0UE9tbDh6ZADJhWkF3NnRzN2dHcjRZAQnRfRkhlTAZDZD',
+		limit: 12
 	});
 	feed.run();
 </script>
+<script src="https://tribalingua.co.uk/plugins/cookie/cookie.js"></script>
+
+
+<script type="text/javascript">
+
+function changeLanguage(lang) {
+	if(window.location.contains(lang)){
+		return;
+	}
+
+    var urlData = window.location.pathname.split('/'); 
+    urlData.splice(0, 2).join('/'); 
+    var newPath = urlData.join('/'); 
+	if(lang == 'en'){
+		window.location.href = '/' + lang + '/'+ newPath; 
+	}else{
+		window.location.href = '/'+ newPath; 
+	}
+    
+}
+</script>
+  
+  
 </body>
 
 </html>

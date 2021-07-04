@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tribalingua.co.uk/en/blog/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://tribalingua.co.uk/blog/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tribalingua.co.uk/en/blog/privacy-policy/"
+                />
+  </url><url>
+    <loc>https://tribalingua.co.uk/en/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://tribalingua.co.uk/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tribalingua.co.uk/en/blog/"
+                />
+  </url><url>
     <loc>https://tribalingua.co.uk/en/categories/</loc>
     <xhtml:link
                 rel="alternate"

@@ -130,6 +130,12 @@ h4.base-font {
     width: 4.5em;
 }
 
+.nav-item a {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #1abd48 !important;
+}
+
 .about_content-inner {
     color: white;
     width: 55%;
@@ -361,6 +367,52 @@ img#testimonial-img {
     font-family: 'Open Sans';
     font-size: xxx-large;
     font-weight: 800;
+}
+
+.wrapper {
+    padding: 32px;
+  }
+  
+  .cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #00a859;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+    z-index: 10;
+    transition: 400ms;
+  }
+  
+  .cookie-container.active {
+    bottom: 0;
+  }
+  
+  .cookie-container a {
+    color: #f5f6fa;
+  }
+  
+.cookie-btn {
+
+    background: #0019a8;
+    border: 0;
+    color: #f9fffc;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.section .singleBlog__content {
+    margin: 0px;
+    font-family: 'Open Sans';
+    background: white;
+    border-radius: 1em;
+    padding: 2em;
 }
 
 @media (max-width: 991px){
