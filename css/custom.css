@@ -220,6 +220,8 @@ a.nav-link.text-dark.text-sm-center.p-2.scroll {
 .instagram img {
     display: block;
     width: 100%;
+    object-fit: cover;
+    max-height: 17em;
 }
 
 #instafeed div {

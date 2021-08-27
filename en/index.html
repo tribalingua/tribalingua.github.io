@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.83.1" />
+	<meta name="generator" content="Hugo 0.87.0" />
   <meta charset="utf-8" />
   <title>Tribalingua</title>
 
@@ -569,11 +569,17 @@
 
 <script src="https://tribalingua.co.uk/js/script.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
 <script type="text/javascript">
-	var feed = new Instafeed({
-		accessToken: 'IGQVJWQXBuRnVRdlpIbkQzcFNveTl5S0JndnRIVWp6bVloWEU2M1VSSUFvczZA2VndnVzIycTNvc25tSFRZAcFFIVUxQTExCc2oxaU9mMnN0SDZAOVVI0UE9tbDh6ZADJhWkF3NnRzN2dHcjRZAQnRfRkhlTAZDZD',
+	fetch("https:\/\/token.tribalingua.co.uk\/token")
+	.then(function(response) {
+		return response.json();
+	})
+	.then(function(jsonResponse) {
+		var feed = new Instafeed({
+		accessToken: jsonResponse.access_token,
 		limit: 12
+		});
+		feed.run();
 	});
-	feed.run();
 </script>
 <script src="https://tribalingua.co.uk/plugins/cookie/cookie.js"></script>
 
